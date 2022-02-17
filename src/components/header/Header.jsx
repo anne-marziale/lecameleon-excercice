@@ -17,7 +17,7 @@ function Header() {
       </div>
       <div className="user">
         <div>Log In</div>
-        <div className='btn-user'>Get Started</div>
+        <button className='btn-user'>Get Started</button>
         <div className="logo"><FaSearch /></div>
       </div>
     </div>

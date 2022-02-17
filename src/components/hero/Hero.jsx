@@ -4,7 +4,7 @@ import './Hero.css';
 function Hero() {
   return (
     <div className="hero">
-      <div className="hero-first-container"></div>
+      <div className="hero-first-container">
       <h1 className="hero-title">
         Building exactly the eCommerce website you want.
       </h1>
@@ -13,8 +13,9 @@ function Hero() {
         WordPress. Get started quickly and make your way.
       </div>
       <div className="btn-hero">
-        <div className="main-hero">Start a New Store</div>
-        <div className="second-hero">or Customize & Extend</div>
+        <button className="main-hero">Start a New Store</button>
+        <div className="second-hero">or Customize & Extend  </div>
+      </div>
       </div>
       <div className="hero-second-container">dvsdvezs</div>
     </div>

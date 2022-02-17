@@ -1,0 +1,7 @@
+.title-feature {
+    display: flex;
+    justify-content: center;
+    color:var(--main-color);
+    font-size: 180%;
+    font-family: 'Circular Std Bold';
+}
