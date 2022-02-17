@@ -1,0 +1,14 @@
+.hero {
+    background-image: linear-gradient(to bottom, #e5efff, #edf2ff, #f5f6ff, #fafaff, #ffffff);
+    display: flex;
+}
+
+.hero-first-container {
+
+    width: 50%;
+}
+
+
+.hero-second-container {
+    width: 50%;
+}
