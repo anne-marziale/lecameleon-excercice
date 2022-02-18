@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: #DAE5F6;
+  background-color: #dae5f6;
 
   .logo {
     margin-left: 6%;
@@ -75,11 +75,11 @@
     font-size: 5vw;
   }
   .navbar_burger {
-    width:40px;
-    height:40px;
-    background:transparent;
-    border:none;
-    color:inherit;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: inherit;
     margin-bottom: 20px;
     margin-left: 10px;
   }
@@ -172,16 +172,15 @@
       align-items: center;
     }
 
-    .btn-header{
-        width: 40%;
-        font-size: 80%;
-        margin-left: 10px;
-        margin-right: 15px;
+    .btn-header {
+      width: 40%;
+      font-size: 80%;
+      margin-left: 10px;
+      margin-right: 15px;
     }
     .search_icon {
-        width : 15%;
-        height: 10%;
+      width: 15%;
+      height: 10%;
     }
   }
 }
-

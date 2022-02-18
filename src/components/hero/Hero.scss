@@ -1,19 +1,19 @@
 .hero {
-    background-image: linear-gradient(
-      to bottom,
-      #e5efff,
-      #edf2ff,
-      #f5f6ff,
-      #fafaff,
-      #ffffff
-    );
-    display: flex;
-    width : 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #e5efff,
+    #edf2ff,
+    #f5f6ff,
+    #fafaff,
+    #ffffff
+  );
+  display: flex;
+  width: 100%;
 
-    .hero-first-container {
-      width: 50%;
-      float: left;
-      margin: 8%;
+  .hero-first-container {
+    width: 50%;
+    float: left;
+    margin: 8%;
 
     .hero-title {
       font-size: 340%;
@@ -45,7 +45,7 @@
     }
 
     .second-hero {
-        color: var(--ten-color);
+      color: var(--ten-color);
     }
   }
 
@@ -53,5 +53,41 @@
     width: 50%;
     float: right;
   }
+}
 
+@media screen and (min-width: 390px) and (max-width: 844px) {
+  .hero {
+    .hero-first-container {
+      margin: 6%;
+
+      .hero-title {
+        font-size: 130%;
+      }
+
+      .hero-text {
+        font-size: 60%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+      }
+
+      .btn-hero {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .btn-heroe {
+        padding: 2%;
+        width: 50%;
+        font-size: 60%;
+      }
+
+      .second-hero {
+        font-size: 60%;
+      }
+    }
+    .hero-second-container {
+      width : 60%;
+    }
+  }
 }
