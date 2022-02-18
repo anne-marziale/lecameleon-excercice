@@ -14,7 +14,7 @@ function Hero() {
         WordPress. Get started quickly and make your way.
       </div>
       <div className="btn-hero">
-        <button className="main-hero">Start a New Store</button>
+        <button className="btn-heroe">Start a New Store</button>
         <div className="second-hero">or Customize & Extend  </div>
       </div>
       </div>
