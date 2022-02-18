@@ -1,0 +1,47 @@
+.testimonials {
+  margin-bottom: 2%;
+  background-image: linear-gradient(
+    to bottom,
+    #e5efff,
+    #edf2ff,
+    #f5f6ff,
+    #fafaff,
+    #ffffff
+  );
+  border-radius: 6%;
+  margin-top: 2%;
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text {
+    border: 1px solid var(--eigth-color);
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 4%;
+    border-radius: 4%;
+    line-height: 2em;
+    color: var(--nine-color);
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 90%;
+  }
+
+  .arrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+    margin-left: 10%;
+  }
+
+  .second-arrow,
+  .first-arrow {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}

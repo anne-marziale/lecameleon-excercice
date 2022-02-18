@@ -1,7 +1,208 @@
-.title-feature {
+.ecommerce {
+margin-bottom: 15%;
+}
+
+.first-container {
+    .title-commerce {
+        display: flex;
+        justify-content: center;
+        font-family: 'Circular Std Bold';
+        color: var(--main-color);
+    }
+}
+
+.second-container {
+  background-color: var(--fourth-color);
+  color: var(--second-color);
+  border-radius: 4%;
+  .first-paragraph {
     display: flex;
-    justify-content: center;
-    color:var(--main-color);
-    font-size: 180%;
-    font-family: 'Circular Std Bold';
+    float: 50%;
+
+    .first-picture {
+      border-radius: 4%;
+      margin-right: 4%;
+      position: relative;
+      bottom: 70px;
+      width: 60%;
+      height: 60%;
+    }
+
+    .first-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      font-size: 120%;
+      margin: 6%;
+    }
+
+    .first-title {
+      font-family: 'Circular Std Bold';
+    }
+
+    .first-text {
+      margin-top: 10%;
+      margin-bottom: 10%;
+      line-height: 2;
+    }
+
+    .first-btn {
+      width: 50px;
+      border-radius: 20px;
+      background-color: var(--sixth-color);
+      color: var(--second-color);
+      border: var(--sixth-color) 1px;
+      width: 40%;
+      padding: 3%;
+    }
+  }
+
+  .line-feature {
+    border-top: 5px dotted var(--ten-color);
+  }
+
+  .second-paragraph {
+    display: flex;
+    float: 50%;
+    flex-direction: row-reverse;
+
+    .second-picture {
+      border-radius: 4%;
+      margin-right: 4%;
+      position: relative;
+      top: 40px;
+      width: 60%;
+      height: 60%;
+    }
+
+    .second-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      font-size: 120%;
+      margin: 6%;
+    }
+
+    .second-title {
+      font-family: 'Circular Std Bold';
+    }
+
+    .second-text {
+      margin-top: 10%;
+      margin-bottom: 10%;
+      line-height: 2;
+    }
+
+    .second-btn {
+      width: 50px;
+      border-radius: 20px;
+      background-color: var(--sixth-color);
+      color: var(--second-color);
+      border: var(--sixth-color) 1px;
+      width: 40%;
+      padding: 3%;
+    }
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+
+    .second-container {
+      
+        .first-paragraph {
+      
+          .first-picture {
+            bottom: 30px;
+            width: 50%;
+            height: 50%;
+          }
+          .first-title {
+            font-size: 140%;
+          }
+
+          .first-text-container {
+            font-size: 60%;
+            margin: 4%;
+          }
+      
+          .first-btn {
+            padding: 2%;
+            font-size: 70%;
+          }
+        }
+      
+        .line-feature {
+          border-top: 2px dotted var(--ten-color);
+        }
+      
+        .second-paragraph {
+      
+          .second-picture {
+            top: 80px;
+            width: 45%;
+            height: 45%;
+          }
+
+          .second-title {
+            font-size: 140%;
+          }
+
+      
+          .second-text-container {
+            font-size: 60%;
+          }
+
+          .second-btn {
+            padding: 2%;
+            font-size: 70%;
+          }
+        }
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .second-container {
+      
+        .first-paragraph {
+      
+          .first-picture {
+            bottom: 70px;
+            width: 40%;
+            height: 40%;
+          }
+      
+          .first-text-container {
+            font-size: 80%;
+            margin: 4%;
+          }
+      
+          .first-btn {
+            padding: 2%;
+          }
+        }
+      
+        .line-feature {
+          border-top: 4px dotted var(--ten-color);
+        }
+      
+        .second-paragraph {
+      
+          .second-picture {
+            top: 40px;
+            width: 35%;
+            height: 35%;
+          }
+      
+          .second-text-container {
+            font-size: 80%;
+          }
+
+          .second-btn {
+            padding: 2%;
+          }
+        }
+      }
 }
