@@ -25,15 +25,15 @@ function Footer() {
         <div className="footer-second-container">
           <div className="title-container">
             <div className="title-logo">
-              <img src={logo1} alt="logo1" />
+              <img src={logo1} alt="logo1" className='logo' />
               30 day money back guarantee
             </div>
             <div className="title-logo">
-              <img src={logo2} alt="logo2" />
+              <img src={logo2} alt="logo2" className='logo'/>
               Support teams across the world
             </div>
             <div className="title-logo">
-              <img src={logo3} alt="logo3" />
+              <img src={logo3} alt="logo3" className='logo'/>
               Safe & Secure online payment
             </div>
           </div>
@@ -97,7 +97,7 @@ function Footer() {
           <div className="policy-footer">
             COPYRIGHT WOOCOMMERCE 2020 - TERMS & CONDITIONS PRIVACY POLICY
           </div>
-          <img src={automatic} alt="automatic" width="25%" height="30%"/>
+          <img className="automatic" src={automatic} alt="automatic" width="25%" height="30%"/>
         </div>
       </div>
   );
