@@ -1,15 +1,16 @@
-.footer-container {
+.footer {
     display: flex;
     flex-direction: column;
     bottom:0;  
     background-color: var(--fourth-color);
     color: var(--second-color);
+    width: 100%;
 }
 
 .footer-first-container {
     display: flex;
     background-color: var(--eleven-color);
-    padding: 8%;
+    padding: 10%;
 }
 
 .footer-title {

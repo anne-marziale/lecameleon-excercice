@@ -14,7 +14,6 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footer">
-      <div className="footer-container">
         <img className="picture" src={picture} alt="pic" width="100%" />
         <div className="footer-first-container">
           <div className="footer-title">
@@ -101,7 +100,6 @@ function Footer() {
           <img src={automatic} alt="automatic" width="25%" height="30%"/>
         </div>
       </div>
-    </div>
   );
 }
 

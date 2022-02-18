@@ -8,6 +8,7 @@
     #ffffff
   );
   display: flex;
+  width : 100%;
 }
 
 .hero-first-container {

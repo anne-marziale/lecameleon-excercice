@@ -3,6 +3,7 @@
     justify-content: flex-start;
     margin: 1%;
     color: var(--main-color);
+    width: 100%;
 }
 
 .navbar-header {
@@ -12,12 +13,16 @@
 .navbar {
     display: flex;
     justify-content: center;
-    margin-left: 40%;
+  
 }
 
 .user {
     display: flex;
-    margin-left: 49%;
+
+}
+
+.logo-header {
+    margin-left: 2%;
 }
 
 .btn-user {
@@ -36,7 +41,7 @@ ul {
 
 .navbar li {
     display: inline-block;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 6px;
+    margin-right: 6px;
     justify-content: center;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import feature from '../assets/featured-image.png';
 import './Hero.css';
 
 function Hero() {
@@ -17,7 +18,9 @@ function Hero() {
         <div className="second-hero">or Customize & Extend  </div>
       </div>
       </div>
-      <div className="hero-second-container">dvsdvezs</div>
+      <div className="hero-second-container">
+      <img src={feature} alt="feature" width="100%" heigth="60%" />
+      </div>
     </div>
   );
 }
