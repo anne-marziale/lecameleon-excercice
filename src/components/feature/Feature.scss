@@ -117,6 +117,8 @@ margin-bottom: 15%;
             bottom: 30px;
             width: 50%;
             height: 50%;
+            position: static;
+            
           }
           .first-title {
             font-size: 140%;
@@ -140,9 +142,10 @@ margin-bottom: 15%;
         .second-paragraph {
       
           .second-picture {
-            top: 80px;
+            margin-top: 6%;
             width: 45%;
-            height: 45%;
+            height: 40%;
+            position: static;
           }
 
           .second-title {
@@ -172,6 +175,7 @@ margin-bottom: 15%;
             bottom: 70px;
             width: 40%;
             height: 40%;
+            position: static;
           }
       
           .first-text-container {
@@ -194,6 +198,7 @@ margin-bottom: 15%;
             top: 40px;
             width: 35%;
             height: 35%;
+            position: static;
           }
       
           .second-text-container {
