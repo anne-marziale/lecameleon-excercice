@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaSearch } from 'react-icons/fa';
+import LOGO from '../assets/LOGO-header.png';
 import './Header.css';
 
 function Header() {
   return (
     <div className="header">
       <div className="navbar-header">
-        <div className="nav-logo">WOO COMMERCE</div>
+      <img src={LOGO} alt="logo-header"/>
         <ul className="navbar">
           <li>Sell</li>
           <li>Marketplace</li>
