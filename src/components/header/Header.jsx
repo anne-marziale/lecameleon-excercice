@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaSearch } from 'react-icons/fa';
 import LOGO from '../assets/LOGO-header.png';
-import './Header.css';
+import './Header.scss';
 
 function Header() {
   return (

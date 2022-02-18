@@ -1,6 +1,6 @@
 import React from 'react';
 import feature from '../assets/featured-image.png';
-import './Hero.css';
+import './Hero.scss';
 
 function Hero() {
   return (

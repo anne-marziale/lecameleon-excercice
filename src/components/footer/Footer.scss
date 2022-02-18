@@ -11,7 +11,6 @@
     display: flex;
     background-color: var(--eleven-color);
     padding: 10%;
-}
 
 .footer-title {
     font-weight: bold;
@@ -28,6 +27,8 @@
     width : 30%;
 }
 
+}
+
 .footer-second-container {
     display : flex;
     text-align: center;
@@ -35,7 +36,6 @@
     flex-direction: column;
     margin-top: 8%;
     margin-bottom: 8%;
-}
 
 .title-container {
     display: flex;
@@ -52,6 +52,8 @@
     margin-top: 12%;
 }
 
+}
+
 .line-footer {
   border: 1px solid var(--second-color);
   margin-top: 2%;
@@ -61,7 +63,7 @@
 .footer-third-container {
   display: flex;
   width : 100%;
-}
+
 
 .column-container {
    display: flex;
@@ -87,6 +89,8 @@ ul {
 
 .li-container1 {
     padding-top: 30px;
+}
+
 }
 
 .footer-fourth-container {

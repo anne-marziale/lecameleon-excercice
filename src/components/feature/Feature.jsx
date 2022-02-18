@@ -1,6 +1,6 @@
 import React from 'react';
 import ecommerce from '../assets/ecommerce.png';
-import './Feature.css';
+import './Feature.scss';
 
 function Feature() {
   return (

@@ -9,7 +9,7 @@ import facebook from '../assets/facebook.png';
 import social from '../assets/social.png';
 import instagram from '../assets/instagram.png';
 import automatic from '../assets/automatic.png';
-import './Footer.css';
+import './Footer.scss';
 
 function Footer() {
   return (
